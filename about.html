@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>关于我 — 张三</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav-bar" aria-label="Main navigation">
+      <a href="index.html" class="nav-brand">Zhongliang Jia(Ely)</a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link" aria-current="page">About</a></li>
+        <li><a href="portfolio.html" class="nav-link">Projects</a></li>
+        <li><a href="moments.html" class="nav-link">Moments</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about-inner">
+        <header class="about-page-head reveal">
+          <h2 id="about-title" class="section-title about-page-title">About Me</h2>
+          <p class="about-tagline">Quick facts, small quirks, and what I actually like spending time on.</p>
+          <ul class="about-badges" aria-label="At a glance">
+            <li>Sagittarius ♐</li>
+            <li>INTJ</li>
+            <li>MIS · SISU</li>
+          </ul>
+        </header>
+        <div class="about-grid">
+          <div class="card about-panel about-text reveal">
+            <h3 class="about-panel-label">Snapshot</h3>
+            <dl class="about-facts">
+              <div class="about-fact">
+                <dt>
+                  <span class="about-fact-icon" aria-hidden="true"><i class="fa-solid fa-cake-candles"></i></span>
+                  Birth date
+                </dt>
+                <dd><time datetime="2004-12-07">Dec 7, 2004</time></dd>
+              </div>
+              <div class="about-fact">
+                <dt>
+                  <span class="about-fact-icon" aria-hidden="true"><i class="fa-solid fa-palette"></i></span>
+                  Favorite color
+                </dt>
+                <dd>Black</dd>
+              </div>
+              <div class="about-fact">
+                <dt>
+                  <span class="about-fact-icon" aria-hidden="true"><i class="fa-solid fa-cloud-sun"></i></span>
+                  Ideal workspace
+                </dt>
+                <dd>Quiet, undistracting spaces with natural light</dd>
+              </div>
+              <div class="about-fact">
+                <dt>
+                  <span class="about-fact-icon" aria-hidden="true"><i class="fa-solid fa-masks-theater"></i></span>
+                  Personality
+                </dt>
+                <dd>Warmer and more outgoing online than in person</dd>
+              </div>
+              <div class="about-fact">
+                <dt>
+                  <span class="about-fact-icon" aria-hidden="true"><i class="fa-solid fa-bullseye"></i></span>
+                  Work style
+                </dt>
+                <dd>Goal-oriented, efficiency-minded, interest-driven</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="card about-panel about-skills reveal reveal-delay">
+            <h3 class="skills-heading">Skills &amp; Interests</h3>
+            <p class="skills-lede">Tools and topics I keep coming back to—not a résumé, just the real list.</p>
+            <ul class="skill-tags">
+              <li><span class="skill-icon" aria-hidden="true">💻</span> Data analysis with Python</li>
+              <li><span class="skill-icon" aria-hidden="true">📝</span> Algorithm design (opinion dynamics)</li>
+              <li><span class="skill-icon" aria-hidden="true">🎨</span> HTML / CSS / JS (exploring)</li>
+              <li><span class="skill-icon" aria-hidden="true">ℬ</span> English teaching (part-time)</li>
+            </ul>
+          </div>
+        </div>
+        <aside class="card about-panel about-quip reveal reveal-delay-2" aria-label="Fun fact">
+          <span class="about-quip-emoji" aria-hidden="true">✨</span>
+          <p class="about-quip-text"><strong>Fun fact:</strong> A true night owl. I strategically use the daytime to recharge, and find my deepest focus and flow state after dark.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <div class="social-links reveal">
+        <a href="#" class="social-link" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+        <a href="#" class="social-link" aria-label="微博"><i class="fa-brands fa-weibo" aria-hidden="true"></i></a>
+        <a href="#" class="social-link" aria-label="邮箱"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+      </div>
+      <p class="copyright">© 2024 张三 保留所有权利。</p>
+    </div>
+    <button type="button" class="back-to-top" id="backToTop" aria-label="回到顶部">
+      <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
