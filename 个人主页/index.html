@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>首页 — Zhongliang Jia (Ely)</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav-bar" aria-label="Main navigation">
+      <a href="index.html" class="nav-brand">Zhongliang Jia(Ely)</a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="portfolio.html" class="nav-link">Projects</a></li>
+        <li><a href="moments.html" class="nav-link">Moments</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section hero" id="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-left reveal">
+          <div class="hero-text">
+            <a
+              href="简历.docx"
+              class="hero-cv-btn"
+              download="Zhongliang-Jia-CV.docx"
+            >
+              <i class="fa-solid fa-download" aria-hidden="true"></i>
+              Download CV
+            </a>
+            <h1 id="hero-title" class="hero-title">
+              <span class="hero-title-intro">Hello! My name is</span>
+              <span class="hero-title-name">Zhongliang Jia (Ely)</span>
+            </h1>
+            <p class="hero-subtitle">An undergraduate student majoring in Management Information Systems at Shanghai International Studies University, awarded the National Scholarship, National Endeavor Scholarship and the University’s Top Prize for ranking first in the School of Business Administration.</p>
+          </div>
+          <div class="hero-tags">
+            <ul class="hero-tag-list" aria-label="个人标签">
+              <li class="hero-tag">
+                <span class="hero-tag-accent" aria-hidden="true"></span>
+                MBTI · INTJ
+              </li>
+              <li class="hero-tag">
+                <span class="hero-tag-accent" aria-hidden="true"></span>
+                Zodiac: Sagittarius ♐️
+              </li>
+              <li class="hero-tag">
+                <span class="hero-tag-accent" aria-hidden="true"></span>
+                Core Traits: Curiosity &amp; Creativity
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="hero-visual reveal reveal-delay">
+          <img class="avatar" src="大头照.jpg" alt="Zhongliang Jia (Ely) 的头像" width="260" height="360" decoding="async" />
+        </div>
+      </div>
+    </section>
+
+   
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <div class="social-links reveal">
+        <a href="#" class="social-link" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+        <a href="#" class="social-link" aria-label="微博"><i class="fa-brands fa-weibo" aria-hidden="true"></i></a>
+        <a href="#" class="social-link" aria-label="邮箱"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+      </div>
+      <p class="copyright">© 2024 张三 保留所有权利。</p>
+    </div>
+    <button type="button" class="back-to-top" id="backToTop" aria-label="回到顶部">
+      <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

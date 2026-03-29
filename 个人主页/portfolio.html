@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的作品 — 张三</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav-bar" aria-label="Main navigation">
+      <a href="index.html" class="nav-brand">Zhongliang Jia(Ely)</a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="portfolio.html" class="nav-link" aria-current="page">Projects</a></li>
+        <li><a href="moments.html" class="nav-link">Moments</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+        <h2 id="portfolio-title" class="section-title reveal">Projects</h2>
+        <div class="portfolio-grid">
+          <article class="card project-card reveal">
+            <div class="project-thumb" aria-hidden="true"></div>
+            <h3 class="project-title">Project One</h3>
+            <p class="project-desc">还没做好呢</p>
+            <a href="#" class="btn btn-outline">查看详情</a>
+          </article>
+          <article class="card project-card reveal">
+            <div class="project-thumb" aria-hidden="true"></div>
+            <h3 class="project-title">Project Two</h3>
+            <p class="project-desc">还没做好呢</p>
+            <a href="#" class="btn btn-outline">查看详情</a>
+          </article>
+          <article class="card project-card reveal">
+            <div class="project-thumb" aria-hidden="true"></div>
+            <h3 class="project-title">Project Three</h3>
+            <p class="project-desc">还没做好呢</p>
+            <a href="#" class="btn btn-outline">查看详情</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <div class="social-links reveal">
+        <a href="#" class="social-link" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+        <a href="#" class="social-link" aria-label="微博"><i class="fa-brands fa-weibo" aria-hidden="true"></i></a>
+        <a href="#" class="social-link" aria-label="邮箱"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+      </div>
+      <p class="copyright">© 2024 张三 保留所有权利。</p>
+    </div>
+    <button type="button" class="back-to-top" id="backToTop" aria-label="回到顶部">
+      <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
